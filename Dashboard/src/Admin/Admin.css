@@ -1,0 +1,27 @@
+.admin{
+    width: 40vw;
+    height: 60vh;
+    border: 1px solid  grey;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 3vw;
+}
+.admin-heading{
+    font-size: 30px; 
+    /* border-bottom:1px solid grey ; */
+}
+.button{
+    width: 180px;
+    border: 1px solid grey;
+    margin: 1vw;
+    display: flex;
+    justify-content: center;
+    background-color: #1b1b1b;
+}
+.button:hover{
+    border: 1px solid #747bff;
+    font-weight: bold;
+}

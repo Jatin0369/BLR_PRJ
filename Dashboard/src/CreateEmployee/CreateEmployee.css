@@ -1,0 +1,46 @@
+.employee{
+    width: 25%;
+    margin: auto;
+    border: 1px solid grey;
+    margin-top: 3vw;
+    padding: 1vw;
+}
+.heading{
+    font-size: 20px;
+    text-align: center;
+    border-bottom: 1px solid grey;
+    padding-bottom: 1vw;
+}
+.form-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  .form-group label {
+    width: 100px; 
+    text-align: right;
+    margin-right: 10px;
+  }
+  .form-group input {
+    flex: 1;
+    padding: 8px;
+    border: 1px solid #646363;
+    border-radius: 4px;
+  }
+.form-group-btn{
+    display: flex;
+    justify-content: center;
+}
+.submit-btn{
+    border: 1px solid grey;
+    margin: 1vw;
+    padding: 5px;
+    width: 60px;
+    background-color: #1b1b1b;
+    display: flex;
+    justify-content: center;
+}
+.submit-btn:hover{
+    border: 1px solid #747bff;
+    font-weight: bold;
+}

@@ -1,0 +1,30 @@
+.navbar{
+    display: flex;
+    border-bottom: 1px solid grey;
+}
+.one-cont{
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+}
+.two-cont{
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+}
+.logout-btn{
+    border: 1px solid grey;
+    margin: 1vw;
+    padding: 5px;
+    width: 60px;
+    background-color: #1b1b1b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logout-btn:hover{
+    border: 1px solid #747bff;
+    font-weight: bold;
+}

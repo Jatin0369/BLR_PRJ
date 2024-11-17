@@ -1,0 +1,93 @@
+.emp-list{
+    width: 80vw;
+    /* height: 80vh; */
+    border: 1px solid grey;
+    margin: auto;
+    margin-top: 1vw;
+}
+.emp-heading{
+    font-size: 30px;
+    text-align: center;
+    border-bottom: 1px solid grey;
+    padding: 10px;
+}
+.clear-sorting{
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.clear-sorting-btn{
+    background-color: #1b1b1b;
+    display: flex;
+    justify-content: center;
+    border: 1px solid grey;
+    margin: 1vw;
+    padding: 5px;
+    width: 100px;
+}
+.clear-sorting-btn:hover{
+    border: 1px solid #747bff;
+    font-weight: bold;
+}
+.toolbar{
+    display: flex;
+    justify-content: space-around;
+}
+.search-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.search-box input{
+    height: 50%;
+}
+.search-btn{
+    border: 1px solid grey;
+    margin: 1vw;
+    padding: 5px;
+    width: 60px;
+    background-color: #1b1b1b;
+    display: flex;
+    justify-content: center;
+}
+.search-btn:hover{
+    border: 1px solid #747bff;
+    font-weight: bold;
+}
+.emp-table{
+    border: 1px solid red;
+    width: 100%;
+    border-collapse: collapse;
+}
+.emp-table th {
+    background-color: #111111; 
+    font-weight: bold;
+  }
+.emp-table th, 
+.emp-table td {
+  border: 2px solid #545454; 
+  padding: 10px; 
+  text-align: center; 
+}
+.emp-table  tr:nth-child(even) {
+    background-color: #1b1b1b; 
+  }
+.pagination{
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+}
+.pagination-btn{
+    border: 1px solid grey;
+    margin: 0 10px;
+    background-color: #1b1b1b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pagination-btn:hover{
+    border: 1px solid #747bff;
+    font-weight: bold;
+}
